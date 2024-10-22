@@ -7,6 +7,7 @@ if number < 0:
     last = positive % 10 
     if last != 0:
         last = last * -1
+
 else:
     last = positive % 10
 if last > 5:
