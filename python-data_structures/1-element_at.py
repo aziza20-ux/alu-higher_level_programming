@@ -10,4 +10,3 @@ def element_at(my_list, idx):
             break
         i += 1
     return ele
-        
