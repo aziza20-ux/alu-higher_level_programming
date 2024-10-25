@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# A Function that returns a key with the biggest integer value.
 
 
 def best_score(a_dictionary):
@@ -6,7 +7,7 @@ def best_score(a_dictionary):
         return None
     key = list(a_dictionary.keys())[0]
     largest = a_dictionary[key]
-    for k, v in list(a_dictionary.item()):
+    for k, v in a_dictionary.items():
         if v > largest:
             largest = v
             key = k
