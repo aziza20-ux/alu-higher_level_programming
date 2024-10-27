@@ -10,8 +10,8 @@ if __name__ == "__main__":
     if not (ops == '+' or ops == '-' or ops == '*' or ops == '/'):
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
-        a = int(argv[1])
-        b = int(argv[3])
+    a = int(argv[1])
+    b = int(argv[3])
     if (ops == '+'):
         print("{} + {} = {}".format(a, b, add(a, b)))
     elif (ops == '-'):
