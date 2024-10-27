@@ -17,9 +17,6 @@ if __name__ == "__main__":
     elif (ops == '-'):
         print("{} - {} = {}".format(a, b, sub(a, b)))
     elif (ops == '*'):
-        print("{} + {} = {}".format(a, b, div(a, b)))
+        print("{} * {} = {}".format(a, b, div(a, b)))
     else:
         print("{} / {} = {}".format(a, b, mul(a, b)))
-        
-
-
