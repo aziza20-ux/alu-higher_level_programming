@@ -6,7 +6,7 @@ if __name__ == "__main__":
     if length != 3:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
-        ops = argv[2]
+    ops = argv[2]
     if not (ops == '+' or ops == '-' or ops == '/' or ops == '*'):
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
