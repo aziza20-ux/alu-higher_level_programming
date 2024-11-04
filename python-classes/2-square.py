@@ -4,7 +4,7 @@
     Instantiation with optional size
         size must be an integer
 """
-class square:
+class Square:
     """Class constructor"""
     def __init__(self, size=0):
         if type(size) != int:
