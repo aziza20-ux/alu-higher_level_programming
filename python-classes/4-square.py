@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 """ Class Square that defines a square by
     Private instance attribute: size
+    Getter and Setters
     Instantiation with optional size
     size must be an integer
+    Public instance method: def area(self)
 """
 
 class Square:
@@ -28,4 +30,3 @@ class Square:
         self.__size = value
     def area(self):
         return self.__size * self.__size
-
