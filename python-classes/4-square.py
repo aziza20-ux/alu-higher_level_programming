@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Class Square that defines a square by
+"""Class Square that defines a square by
     Private instance attribute: size
     Getter and Setters
     Instantiation with optional size
@@ -16,15 +16,15 @@ class Square:
                raise TypeError('size must be an integer')
            if size < 0:
                raise ValueError('size must be >= 0')
-        self.__size = size
+           self.__size = size
 
     """Size getter"""
-        @property
+    @property
     def size(self):
         return self.__size
 
     """Size setter"""
-        @size.setter
+    @size.setter
     def size(self, value):
         if type(value) != int:
             raise TypeError("size must be an integer")
