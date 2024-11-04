@@ -8,7 +8,6 @@
 """
 
 
-
 class Square:
     """Class constructor"""
     def __init__(self, size=0):
