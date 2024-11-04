@@ -8,10 +8,18 @@
 class Square:
     """Class constructor"""
     def __init__(self, size=0):
+           if type(size) != int:
+            raise TypeError('size must be an integer')
+        if size < 0:
+            raise ValueError('size must be >= 0')
+        self.__size = size
+
+    """Size getter"""
         @property
     def size(self):
-        print("{}".format(self.__size))
-        @sizesetter
+        return self.__size
+    """size setter"""
+        @size.setter
     def size(self, value):
         if type(value) != int:
             raise TypeError("size must be an integer")
