@@ -1,7 +1,7 @@
-""" this module is all about defining a class"""
-
-
 #!/usr/bin/python3
+"""Square class"""
+
+
 class Square:
-    """ this is a definition of a class, when you want to"""
+    """Empty class Square"""
     pass
