@@ -8,6 +8,7 @@
     Public instance method: def my_print(self)
 """
 
+
 class Square:
     """Class constructor"""
     def __init__(self, size=0):
