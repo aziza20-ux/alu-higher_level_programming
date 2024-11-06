@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """ defining a classes with getters and setters"""
 class rectangle():
-    """ defining a class"""
+""" defining a class"""
     def __init__(self, width=0, height=0):
     self.__width = width
     self.__height = height
