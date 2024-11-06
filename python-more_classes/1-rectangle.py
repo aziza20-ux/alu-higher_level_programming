@@ -1,12 +1,17 @@
 #!/usr/bin/python3
-""" defining a classes with getters and setters"""
+""" Class Rectangle """
 
 
 class rectangle():
-""" defining a class"""
+      """
+    Rectangle that defines a rectangle by:
+    Private instance attribute: width (int)
+    Private instance attribute: height (int)
+    Instantiation with optional width and heigh
+    """
     def __init__(self, width=0, height=0):
-    self.__width = width
-    self.__height = height
+    self.width = width
+    self.height = height
 
      """ getter for width"""
     @property
