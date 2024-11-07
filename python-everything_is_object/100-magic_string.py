@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 def magic_string():
-    for i in range(1, 11):
-        print(", ".join(["BestSchool"] * 1) + "$")
+    setattr(magic_string, "i", getattr(magic_string, "i", -1) + 1)
+    return "BestSchool" + ", BestSchool" * getattr(magic_string, "i", 0)
