@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-""" this module is all about defining a classes"""
+""" Class Rectangle """
 
 
-class Rectangle():
-    """defining a class"""
+class Rectangle:
+    """ Empty class Rectangle """
     pass
