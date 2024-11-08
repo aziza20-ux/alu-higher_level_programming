@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""improving a class"""
+"""BaseGeometry class Module"""
 
 
 class BaseGeometry():
-    """definign a classs is a good thing"""
+    """BaseGeometry class"""
     def area(self):
         """Raises an Exception"""
-        raise exception("area() is not implemented")
+        raise Exception("area() is not implemented")
