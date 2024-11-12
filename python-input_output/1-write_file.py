@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" reading from a file and create it if it doesn't exist, and count the number of characters."""
+"""Defines a file-writing function."""
 
 
 def write_file(filename="", text=""):
