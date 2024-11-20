@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 """Yuejhsdhjfhcbvhcjvvhbfjc,hvjc hcfbgjfbc"""
 import urllib.request
 from sys import argv
