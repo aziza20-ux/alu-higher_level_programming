@@ -11,4 +11,3 @@ if len(argv) > 2:
     with request.urlopen(req) as response:
         r = response.read()
         print(r.decode('utf-8'))
-
