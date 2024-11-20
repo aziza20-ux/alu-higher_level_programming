@@ -1,4 +1,9 @@
 #!/usr/bin/python3
-#hi would you dp
-import urllib.request; r=urllib.request.urlopen("https://alx-intranet.hbtn.io/status"); print(f"Body response:\n\t- type: {type(r.read())}\n\t- content: b'Custom status'\n\t- utf8 content: Custom status")
+"""fetches https://intranet.hbtn.io/status"""
+import urllib.request
 
+if __name__ == '__main__':
+    with urllib.request.urlopen("https://intranet.hbtn.io/status") as response:
+        html = response.read()
+        print("Body response:\n\t- type: {}\n\t- content: {}\n\t-".format(
+              type(html), html), "utf8 content:", html.decode("utf-8"))
