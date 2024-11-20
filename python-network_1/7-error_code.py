@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-"""The error httperror is nit gonna do any good thing to me"""
-
-from urllib import requests
+"""takes in a URL, sends a request to the URL and displays the body
+of the response"""
+import requests
 from sys import argv
 
-if __name__ ="__main__":
-    r = request.get(argv[1])
-    if r.status_code > 400:
-        print('error code is:', r.status_code)
+
+if __name__ == '__main__':
+    r = requests.get(argv[1])
+    if r.status_code >= 400:
+        print('Error code:', r.status_code)
     else:
         print(r.text)
-
