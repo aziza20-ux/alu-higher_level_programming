@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 '''
-Prints the first State,
-and the last date engine.
+Prints the first State,and the last date engine and using `sessionmaker(bind=engine)`.
 '''
 from sys import argv
 from sqlalchemy import create_engine
