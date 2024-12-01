@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-prints the first State,
+Prints the first State,
 and the last date engine.
 '''
 from sys import argv
