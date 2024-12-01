@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-Lists all State objects that contain the letter a
+Lists all State objects that contain the letter a and using sessionmaker(bind=engine)
 '''
 
 
