@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Start link class to table in database
+"""
+Start link class to table in database, using sessionmaker(bind=engine)
 """
 
 
