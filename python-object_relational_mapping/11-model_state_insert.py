@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-Adds the State object “Louisiana”
+Adds the State object “Louisiana” and `sessionmaker(bind=engine)`
 '''
 
 

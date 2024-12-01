@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-Changes the name of a State object
+Changes the name of a State object and using `sessionmaker(bind=engine)`
 '''
 
 

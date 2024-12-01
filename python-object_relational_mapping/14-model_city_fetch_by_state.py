@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-Prints all City objects
+Prints all City objects and using `sessionmaker(bind=engine)`
 '''
 
 
