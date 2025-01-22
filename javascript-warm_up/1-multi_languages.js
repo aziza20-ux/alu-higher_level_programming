@@ -1,7 +1,7 @@
 #!/usr/bin/node
 const a = 'C is fun'; 
-const b = 'python is cool'; 
-const c = 'javascript is amazing';
+const b = 'Python is cool'; 
+const c = 'Javascript is amazing';
 console.log(a);
 console.log(b);
 console.log(c);
