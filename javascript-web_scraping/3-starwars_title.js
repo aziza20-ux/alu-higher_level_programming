@@ -7,6 +7,7 @@ const url_api = 'https://swapi-api.alx-tools.com/api/films/';
 request(url_api + episodnber, function(err, response, body){
 if (err) {
 	console.log(err);
+}
 	else if (reponse.statusCode === 200){
 		const responsejson = JSON.parse(body);
 		console.log(responsejson.title);
@@ -15,5 +16,4 @@ if (err) {
 		console.log(`error code` + response.statusCode);
 	}
 
-}
 });
