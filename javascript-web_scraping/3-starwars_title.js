@@ -8,7 +8,7 @@ request(url_api + episodnber, function(err, response, body){
 if (err) {
 	console.log(err);
 }
-	else if (reponse.statusCode === 200){
+	else if (response.statusCode === 200){
 		const responsejson = JSON.parse(body);
 		console.log(responsejson.title);
 	}
